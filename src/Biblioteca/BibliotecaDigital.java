@@ -4,6 +4,10 @@ package Biblioteca;
 public class BiblotecaDigital {
   public static void main(Strings [] args){
            Scanner sc = new Scanner(System.in);
+            String u="a";
+            String c="b";
+            String co="c";
+    usuario a=new usuario("1230",u,c,co);
         System.out.println("\n--- Menú Principal ---");
         System.out.println("1.Usuario");
         System.out.println("2.Bibliotecario");
@@ -23,12 +27,12 @@ public class BiblotecaDigital {
                         break;
                     case 2:
                      System.out.println("Ingrese un nombre de usuario: ");
-                     String u=sc.next();
+                     u=sc.next();
                      System.out.println("Ingrese un correo: ");
-                     String c=sc.next();
+                     c=sc.next();
                      System.out.println("Ingrese su contraseña: ");
-                     String co=sc.next();
-                     usuario a=new usuario("1230",u,c,co);
+                     co=sc.next();
+                     
                      a.registrar();
                         break;
                     default:
@@ -51,6 +55,7 @@ public class BiblotecaDigital {
                     
             }
 }
+
 
 
 
