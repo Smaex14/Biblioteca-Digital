@@ -5,7 +5,7 @@ public class BiblotecaDigital {
   public static void main(Strings [] args){
            Scanner sc = new Scanner(System.in);
             
-    usuario a=new usuario();
+    
         System.out.println("\n--- Menú Principal ---");
         System.out.println("1.Usuario");
         System.out.println("2.Bibliotecario");
@@ -24,6 +24,7 @@ public class BiblotecaDigital {
                         
                         break;
                     case 2:
+                     usuario a=new usuario();
                      a.registrar();
                         break;
                     default:
@@ -46,6 +47,7 @@ public class BiblotecaDigital {
                     
             }
 }
+
 
 
 
