@@ -22,6 +22,14 @@ public class BiblotecaDigital {
                         
                         break;
                     case 2:
+                     System.out.println("Ingrese un nombre de usuario: ");
+                     String u=sc.next();
+                     System.out.println("Ingrese un correo: ");
+                     String c=sc.next();
+                     System.out.println("Ingrese su contraseña: ");
+                     String co=sc.next();
+                     usuario a=new usuario("1230",u,c,co);
+                     a.registrar();
                         break;
                     default:
                     System.out.println("Opcion no valida");
@@ -43,6 +51,7 @@ public class BiblotecaDigital {
                     
             }
 }
+
 
 
 
