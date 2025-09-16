@@ -26,13 +26,6 @@ public class BiblotecaDigital {
                         
                         break;
                     case 2:
-                     System.out.println("Ingrese un nombre de usuario: ");
-                     u=sc.next();
-                     System.out.println("Ingrese un correo: ");
-                     c=sc.next();
-                     System.out.println("Ingrese su contraseña: ");
-                     co=sc.next();
-                     
                      a.registrar();
                         break;
                     default:
@@ -55,6 +48,7 @@ public class BiblotecaDigital {
                     
             }
 }
+
 
 
 
