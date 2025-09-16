@@ -7,7 +7,7 @@ public class BiblotecaDigital {
             String u="a";
             String c="b";
             String co="c";
-    usuario a=new usuario("1230",u,c,co);
+    usuario a=new usuario(1230,u,c,co);
         System.out.println("\n--- Menú Principal ---");
         System.out.println("1.Usuario");
         System.out.println("2.Bibliotecario");
@@ -48,6 +48,7 @@ public class BiblotecaDigital {
                     
             }
 }
+
 
 
 
