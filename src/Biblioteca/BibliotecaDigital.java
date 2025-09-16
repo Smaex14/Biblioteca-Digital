@@ -29,6 +29,8 @@ public class BiblotecaDigital {
 
                 }
                 case 2:
+                  System.out.println("====Menu Bibliotecario====");
+                  System.out.println("");
                     break;
 
                 default:
@@ -41,5 +43,6 @@ public class BiblotecaDigital {
                     
             }
 }
+
 
 
