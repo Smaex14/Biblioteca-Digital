@@ -6,7 +6,7 @@ public class BiblotecaDigital {
            Scanner sc = new Scanner(System.in);
             int opcion;        
           usuario a=new usuario();
-            
+        do{
         System.out.println("\n--- Menú Principal ---");
         System.out.println("1.Usuario");
         System.out.println("2.Bibliotecario");
@@ -41,17 +41,19 @@ public class BiblotecaDigital {
                   System.out.println("====Menu Bibliotecario====");
                   System.out.println("");
                     break;
-
+              case 0:
+                System.out.println("Salir");
                 default:
                 System.out.println("Opcion no valida");
                     break;
             }
 
-
+        }while(opcion !=0);
                     
                     
             }
 }
+
 
 
 
