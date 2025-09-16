@@ -4,7 +4,8 @@ package Biblioteca;
 public class BiblotecaDigital {
   public static void main(Strings [] args){
            Scanner sc = new Scanner(System.in);
-            int opcion;        
+            int opcion;     
+            int op;
           usuario a=new usuario();
         do{
         System.out.println("\n--- Menú Principal ---");
@@ -15,6 +16,7 @@ public class BiblotecaDigital {
             
             switch(opcion){
                 case 1:
+                do{
                 System.out.println("====Menu de usuario=====");    
                 System.out.println("1.-Iniciar sesion");
                 System.out.println("2.-Registrarse");
@@ -32,11 +34,13 @@ public class BiblotecaDigital {
                    case 3:
                      a.darDebaja();
                      break;
+                   case 0:
+                     System.out.println("");
                     default:
                     System.out.println("Opcion no valida");
                         break;
 
-                }
+                }}while(op!=0);
                 case 2:
                   System.out.println("====Menu Bibliotecario====");
                   System.out.println("");
@@ -53,6 +57,7 @@ public class BiblotecaDigital {
                     
             }
 }
+
 
 
 
