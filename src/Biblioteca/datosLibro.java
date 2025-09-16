@@ -1,4 +1,4 @@
-package bibliotecadigital;
+package Biblioteca;
 
 public class datosLibro {
     long idLibro;
