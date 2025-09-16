@@ -58,7 +58,7 @@ public class BiblotecaDigital {
                         }
                           break;
                       case 3:
-                        System.out.println("Ingrse el Tema del libro");
+                        System.out.println("Ingrese el Tema del libro");
                         //scan
                         if(){
                           System.out.println("=====Resultados=====");
@@ -120,11 +120,26 @@ public class BiblotecaDigital {
                 }
                 case 2:
                   System.out.println("=====Menu Bibliotecario=====");
-                 System.out.println("1.Agregar libro");
+                  System.out.println("1.Agregar libro");
                   System.out.println("2.Eliminar libro");
-                  System.out.println("Actualizar informacion del libro");
-                System.out.println("Actualizar disponibilidad del libro");
+                  System.out.println("3.Actualizar informacion del libro");
+                  System.out.println("4.Actualizar disponibilidad del libro");
                   System.out.println("Seleccione una opcion");
+                  int opcion = sc.nextInt();
+                switch(opcion6){
+                  case 1:
+                    //metodo para agregar libro
+                      break;
+
+                  case 2:
+                    //metodo para eliminar
+                      break;
+                  case 3:
+                    //metodo para actualizar informacion del libro
+                      break;
+                  case 4:
+                    //metodo para actualizar disponibilidad del libro
+                }
                     break;
 
                 default:
@@ -137,6 +152,7 @@ public class BiblotecaDigital {
                     
             }
 }
+
 
 
 
