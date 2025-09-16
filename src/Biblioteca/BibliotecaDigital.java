@@ -7,7 +7,7 @@ public class BiblotecaDigital {
             int opcion;        
           usuario a=new usuario();
             
-        System.out.println("\n--- Menú Principal ---");
+        System.out.println("=====Menú Principal=====");
         System.out.println("1.Usuario");
         System.out.println("2.Bibliotecario");
         System.out.println("Seleccione una opcion");
@@ -49,7 +49,7 @@ public class BiblotecaDigital {
                         }
                         break;
                       case 2:
-                        System.out.println("Ingrse el autor del libro");
+                        System.out.println("Ingrese el autor del libro");
                         //scan
                         if(){
                           System.out.println("=====Resultados=====");
@@ -119,8 +119,12 @@ public class BiblotecaDigital {
 
                 }
                 case 2:
-                  System.out.println("====Menu Bibliotecario====");
-                  System.out.println("");
+                  System.out.println("=====Menu Bibliotecario=====");
+                 System.out.println("1.Agregar libro");
+                  System.out.println("2.Eliminar libro");
+                  System.out.println("Actualizar informacion del libro");
+                System.out.println("Actualizar disponibilidad del libro");
+                  System.out.println("Seleccione una opcion");
                     break;
 
                 default:
@@ -133,6 +137,7 @@ public class BiblotecaDigital {
                     
             }
 }
+
 
 
 
