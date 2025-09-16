@@ -21,10 +21,10 @@ public class BiblotecaDigital {
                  int opcion2 = sc.nextInt();   
                  switch (opcion2) {
                     case 1:
-                        
+                        a.iniciarSesion();
+                     
                         break;
                     case 2:
-                     
                      a.registrar();
                         break;
                     default:
@@ -47,6 +47,7 @@ public class BiblotecaDigital {
                     
             }
 }
+
 
 
 
