@@ -1,16 +1,9 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package Biblioteca;
 
 import java.util.List;
 import java.util.ArrayList;
 
-/**
- * Enumeración para representar el estado de un usuario.
- * Puede ser ACTIVO, INACTIVO, o PENDIENTE.
- */
 enum EstadoUsuario {
     ACTIVO, INACTIVO, PENDIENTE
 }
@@ -44,7 +37,7 @@ public class Usuario {
 public void darDeBaja() {
     if (this.estado == EstadoUsuario.ACTIVO) {
         this.estado = EstadoUsuario.INACTIVO;
-        System.out.println("Usuario dado de baja.");
+        System.out.println("Usuario ha sido dado de baja.");
     } else {
         System.out.println("El usuario no está activo.");
     }
@@ -57,7 +50,7 @@ public boolean iniciarSesion(String emailIngresado, String contrasenaIngresada) 
         System.out.println("Inicio de sesión exitoso.");
         return true;
     }
-    System.out.println("Inicio de sesión fallido.");
+    System.out.println("Inicio de sesión fallido, intente de nuevo.");
     return false;
 }
 
@@ -87,3 +80,4 @@ public boolean renovarPrestamo(Prestamo prestamo) {
     return resultado;
 }
 }
+
