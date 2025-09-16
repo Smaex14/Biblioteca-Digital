@@ -4,10 +4,8 @@ package Biblioteca;
 public class BiblotecaDigital {
   public static void main(Strings [] args){
            Scanner sc = new Scanner(System.in);
-            String u="a";
-            String c="b";
-            String co="c";
-    usuario a=new usuario(1230,u,c,co);
+            
+    usuario a=new usuario();
         System.out.println("\n--- Menú Principal ---");
         System.out.println("1.Usuario");
         System.out.println("2.Bibliotecario");
@@ -48,6 +46,7 @@ public class BiblotecaDigital {
                     
             }
 }
+
 
 
 
