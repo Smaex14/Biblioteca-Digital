@@ -60,7 +60,7 @@ public class Libro {
                 this.titulo, (estado ? "Disponible" : "No Disponible"));
     }
 
-    // --- GETTERS CONVENCIONALES ---
+    
     public String getIdLibro() { return idLibro; }
     public String getTitulo() { return titulo; }
     public String getAutor() { return autor; }
@@ -68,3 +68,4 @@ public class Libro {
     public boolean isDisponible() { return disponible; }
     public Ubicacion getUbicacion() { return ubicacion; }
 }
+
