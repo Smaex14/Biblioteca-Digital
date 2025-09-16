@@ -15,8 +15,9 @@ public class BiblotecaDigital {
             switch(opcion){
                 case 1:
                 System.out.println("====Menu de usuario=====");    
-                System.out.println("Iniciar sesion");
-                System.out.println("Registrarse");
+                System.out.println("1.-Iniciar sesion");
+                System.out.println("2.-Registrarse");
+                System.out.println("3.- Dar de baja");
                 System.out.println("Seleccione una opcion");
                  int opcion2 = sc.nextInt();   
                  switch (opcion2) {
@@ -47,6 +48,7 @@ public class BiblotecaDigital {
                     
             }
 }
+
 
 
 
