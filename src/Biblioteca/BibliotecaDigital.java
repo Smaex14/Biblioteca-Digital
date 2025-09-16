@@ -2,5 +2,44 @@
 package Biblioteca;
 
 public class BiblotecaDigital {
+  public static void main(Strings [] args){
+           Scanner sc = new Scanner(System.in);
+        System.out.println("\n--- Menú Principal ---");
+        System.out.println("1.Usuario");
+        System.out.println("2.Bibliotecario");
+        System.out.println("Seleccione una opcion");
+            int opcion = sc.nextInt();
+            
+            switch(opcion){
+                case 1:
+                System.out.println("====Menu de usuario=====");    
+                System.out.println("Iniciar sesion");
+                System.out.println("Registrarse");
+                System.out.println("Seleccione una opcion");
+                 int opcion2 = sc.nextInt();   
+                 switch (opcion2) {
+                    case 1:
+                        
+                        break;
+                    case 2:
+                        break;
+                    default:
+                    System.out.println("Opcion no valida");
+                        break;
+
+                }
+                case 2:
+                    break;
+
+                default:
+                System.out.println("Opcion no valida");
+                    break;
+            }
+
+
+                    
+                    
+            }
 }
+
 
